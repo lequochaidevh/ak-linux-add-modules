@@ -20,6 +20,9 @@ extern "C++"
 #include "timer.h"
 #include "port.h"
 
+#include "mosqsupscribe.h"
+#include "mosqpublish.h"
+
 #define AK_PRIORITY_ENABLE				1
 
 #define AK_VERSION						"1.1"

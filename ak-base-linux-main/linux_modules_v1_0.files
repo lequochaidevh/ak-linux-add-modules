@@ -77,4 +77,3 @@ sources/vendors/mosquittopp/exam/mosqsupscribe.cpp
 sources/vendors/mosquittopp/exam/mosqsupscribe.h
 sources/vendors/mosquittopp/lib/cpp/mosquittopp.cpp
 sources/vendors/mosquittopp/lib/cpp/mosquittopp.h
-sources/vendors/mosquittopp/lib/cpp/mosquittopp.o

@@ -1,0 +1,9 @@
+sources/ak
+sources/app
+sources/app/interfaces
+sources/common
+sources/networks/net/link
+sources/sys
+sources/vendors/mosquittopp/lib/cpp
+sources/vendors/mosquittopp
+sources/vendors/mosquittopp/exam

@@ -29,7 +29,8 @@ static uint32_t ak_thread_started = 0;
 
 int main() {
 	int status;
-
+    //test_mymosqSubscribe();
+    test_mymosqPublish();
 	AK_MSG_DBG("TASK LIST LEN: %d\n", ak_thread_table_len);
 
 	task_init();

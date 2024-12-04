@@ -1,0 +1,1618 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o (__libc_csu_init)
+
+Merging program properties
+
+
+As-needed library included to satisfy reference by file (symbol)
+
+libpthread.so.0               build_ak-base-linux/if_app.o (write@@GLIBC_2.2.5)
+librt.so.1                    build_ak-base-linux/timer.o (timer_create@@GLIBC_2.3.3)
+libmosquittopp.so.1           build_ak-base-linux/mosqpublish.o (mosqpp::mosquittopp::loop_start())
+libstdc++.so.6                build_ak-base-linux/app_config.o (std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long)@@GLIBCXX_3.4.21)
+libgcc_s.so.1                 build_ak-base-linux/app_config.o (_Unwind_Resume@@GCC_3.0)
+libc.so.6                     build_ak-base-linux/if_app.o (socket@@GLIBC_2.2.5)
+
+Discarded input sections
+
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/ak.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/ak.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/message.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/message.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/timer.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/timer.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/fsm.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/fsm.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/tsm.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/tsm.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/sys_dbg.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/sys_dbg.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/if_app.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/if_app.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/if_console.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/if_console.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/if_cpu_serial.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/if_cpu_serial.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/app.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/app.o
+ .group         0x0000000000000000        0xc build_ak-base-linux/app_config.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/app_config.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/app_config.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/app_data.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/app_data.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/shell.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/shell.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/task_console.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/task_console.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/task_debug.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/task_debug.o
+ .group         0x0000000000000000        0xc build_ak-base-linux/task_fw.o
+ .group         0x0000000000000000        0xc build_ak-base-linux/task_fw.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 build_ak-base-linux/task_fw.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/task_fw.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/task_fw.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/task_if.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/task_if.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/task_list.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/task_list.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/base64.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/base64.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/cmd_line.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/cmd_line.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/fifo.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/fifo.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/firmware.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/firmware.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/link.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/link.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/link_mac.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/link_mac.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/link_phy.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/link_phy.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/link_data.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/link_data.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqsupscribe.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqsupscribe.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqsupscribe.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqsupscribe.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqsupscribe.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqsupscribe.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqsupscribe.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqsupscribe.o
+ .group         0x0000000000000000        0xc build_ak-base-linux/mosqsupscribe.o
+ .group         0x0000000000000000        0xc build_ak-base-linux/mosqsupscribe.o
+ .group         0x0000000000000000        0xc build_ak-base-linux/mosqsupscribe.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 build_ak-base-linux/mosqsupscribe.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/mosqsupscribe.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/mosqsupscribe.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqpublish.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqpublish.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqpublish.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqpublish.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqpublish.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqpublish.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqpublish.o
+ .group         0x0000000000000000        0x8 build_ak-base-linux/mosqpublish.o
+ .group         0x0000000000000000        0xc build_ak-base-linux/mosqpublish.o
+ .group         0x0000000000000000        0xc build_ak-base-linux/mosqpublish.o
+ .group         0x0000000000000000        0xc build_ak-base-linux/mosqpublish.o
+ .text._ZN6mosqpp11mosquittopp21on_connect_with_flagsEii
+                0x0000000000000000        0x5 build_ak-base-linux/mosqpublish.o
+ .text._ZN6mosqpp11mosquittopp14on_unsubscribeEi
+                0x0000000000000000        0x5 build_ak-base-linux/mosqpublish.o
+ .text._ZN6mosqpp11mosquittopp6on_logEiPKc
+                0x0000000000000000        0x5 build_ak-base-linux/mosqpublish.o
+ .text._ZN6mosqpp11mosquittopp8on_errorEv
+                0x0000000000000000        0x5 build_ak-base-linux/mosqpublish.o
+ .text._ZNKSt5ctypeIcE8do_widenEc
+                0x0000000000000000        0x7 build_ak-base-linux/mosqpublish.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000000000        0x8 build_ak-base-linux/mosqpublish.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 build_ak-base-linux/mosqpublish.o
+ .note.gnu.property
+                0x0000000000000000       0x20 build_ak-base-linux/mosqpublish.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .note.gnu.property
+                0x0000000000000000       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+LOAD build_ak-base-linux/ak.o
+LOAD build_ak-base-linux/message.o
+LOAD build_ak-base-linux/timer.o
+LOAD build_ak-base-linux/fsm.o
+LOAD build_ak-base-linux/tsm.o
+LOAD build_ak-base-linux/sys_dbg.o
+LOAD build_ak-base-linux/if_app.o
+LOAD build_ak-base-linux/if_console.o
+LOAD build_ak-base-linux/if_cpu_serial.o
+LOAD build_ak-base-linux/app.o
+LOAD build_ak-base-linux/app_config.o
+LOAD build_ak-base-linux/app_data.o
+LOAD build_ak-base-linux/shell.o
+LOAD build_ak-base-linux/task_console.o
+LOAD build_ak-base-linux/task_debug.o
+LOAD build_ak-base-linux/task_fw.o
+LOAD build_ak-base-linux/task_if.o
+LOAD build_ak-base-linux/task_list.o
+LOAD build_ak-base-linux/base64.o
+LOAD build_ak-base-linux/cmd_line.o
+LOAD build_ak-base-linux/fifo.o
+LOAD build_ak-base-linux/firmware.o
+LOAD build_ak-base-linux/link.o
+LOAD build_ak-base-linux/link_mac.o
+LOAD build_ak-base-linux/link_phy.o
+LOAD build_ak-base-linux/link_data.o
+LOAD build_ak-base-linux/mosqsupscribe.o
+LOAD build_ak-base-linux/mosqpublish.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libpthread.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/librt.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libmosquittopp.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libstdc++.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libm.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libm.so.6
+LOAD /lib/x86_64-linux-gnu/libmvec.so.1
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libc.so
+START GROUP
+LOAD /lib/x86_64-linux-gnu/libc.so.6
+LOAD /usr/lib/x86_64-linux-gnu/libc_nonshared.a
+LOAD /lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/libgcc_s.so.1
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x0))
+                0x0000000000000318                . = (SEGMENT_START ("text-segment", 0x0) + SIZEOF_HEADERS)
+
+.interp         0x0000000000000318       0x1c
+ *(.interp)
+ .interp        0x0000000000000318       0x1c /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.property
+                0x0000000000000338       0x20
+ .note.gnu.property
+                0x0000000000000338       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.gnu.build-id
+                0x0000000000000358       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000000000358       0x24 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.note.ABI-tag   0x000000000000037c       0x20
+ .note.ABI-tag  0x000000000000037c       0x20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000000003a0       0x64
+ *(.gnu.hash)
+ .gnu.hash      0x00000000000003a0       0x64 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynsym         0x0000000000000408      0xa20
+ *(.dynsym)
+ .dynsym        0x0000000000000408      0xa20 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.dynstr         0x0000000000000e28      0x9b5
+ *(.dynstr)
+ .dynstr        0x0000000000000e28      0x9b5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version    0x00000000000017de       0xd8
+ *(.gnu.version)
+ .gnu.version   0x00000000000017de       0xd8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_d  0x00000000000018b8        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x00000000000018b8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.gnu.version_r  0x00000000000018b8      0x120
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x00000000000018b8      0x120 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.dyn       0x00000000000019d8      0x978
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ .rela.text     0x00000000000019d8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ .rela.data.rel.ro
+                0x00000000000019d8        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local
+                0x00000000000019d8      0x1c8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000001ba0       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel
+                0x0000000000001bb8      0x318 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTI13mosqSupscribe
+                0x0000000000001ed0       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro.local._ZTV13mosqSupscribe
+                0x0000000000001f18      0x120 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro._ZTI11mosqpublish
+                0x0000000000002038       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.data.rel.ro.local._ZTV11mosqpublish
+                0x0000000000002080      0x120 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ .rela.got      0x00000000000021a0       0xa8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+ .rela.bss      0x0000000000002248       0x48 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.ldata .rela.ldata.* .rela.gnu.linkonce.l.*)
+ *(.rela.lbss .rela.lbss.* .rela.gnu.linkonce.lb.*)
+ *(.rela.lrodata .rela.lrodata.* .rela.gnu.linkonce.lr.*)
+ *(.rela.ifunc)
+ .rela.ifunc    0x0000000000002290        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.fini_array
+                0x0000000000002290       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.init_array
+                0x00000000000022a8       0xa8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .rela.eh_frame
+                0x0000000000002350        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+
+.rela.plt       0x0000000000002350      0x7e0
+ *(.rela.plt)
+ .rela.plt      0x0000000000002350      0x7e0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ *(.rela.iplt)
+                0x0000000000003000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+
+.init           0x0000000000003000       0x1b
+ *(SORT_NONE(.init))
+ .init          0x0000000000003000       0x16 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x0000000000003000                _init
+ .init          0x0000000000003016        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+.plt            0x0000000000003020      0x550
+ *(.plt)
+ .plt           0x0000000000003020      0x550 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ *(.iplt)
+
+.plt.got        0x0000000000003570       0x10
+ *(.plt.got)
+ .plt.got       0x0000000000003570       0x10 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000003570                __cxa_finalize@@GLIBC_2.2.5
+
+.plt.sec        0x0000000000003580      0x540
+ *(.plt.sec)
+ .plt.sec       0x0000000000003580      0x540 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000003580                __printf_chk@@GLIBC_2.3.4
+                0x0000000000003590                pthread_cond_signal@@GLIBC_2.3.2
+                0x00000000000035a0                std::ostream::put(char)@@GLIBCXX_3.4
+                0x00000000000035b0                __errno_location@@GLIBC_2.2.5
+                0x00000000000035c0                bind@@GLIBC_2.2.5
+                0x00000000000035d0                socket@@GLIBC_2.2.5
+                0x00000000000035e0                rand@@GLIBC_2.2.5
+                0x00000000000035f0                getc@@GLIBC_2.2.5
+                0x0000000000003600                mosqpp::mosquittopp::mosquittopp(char const*, bool)
+                0x0000000000003610                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long)@@GLIBCXX_3.4.21
+                0x0000000000003620                accept@@GLIBC_2.2.5
+                0x0000000000003630                write@@GLIBC_2.2.5
+                0x0000000000003640                strlen@@GLIBC_2.2.5
+                0x0000000000003650                mkdir@@GLIBC_2.2.5
+                0x0000000000003660                pthread_join@@GLIBC_2.2.5
+                0x0000000000003670                mosqpp::mosquittopp::~mosquittopp()
+                0x0000000000003680                strncpy@@GLIBC_2.2.5
+                0x0000000000003690                mosqpp::mosquittopp::publish(int*, char const*, int, void const*, int, bool)
+                0x00000000000036a0                pthread_attr_setschedparam@@GLIBC_2.2.5
+                0x00000000000036b0                mosqpp::mosquittopp::subscribe(int*, char const*, int)
+                0x00000000000036c0                pthread_create@@GLIBC_2.2.5
+                0x00000000000036d0                fcntl@@GLIBC_2.2.5
+                0x00000000000036e0                mosqpp::lib_init()
+                0x00000000000036f0                __sprintf_chk@@GLIBC_2.3.4
+                0x0000000000003700                cfsetispeed@@GLIBC_2.2.5
+                0x0000000000003710                std::ostream::flush()@@GLIBCXX_3.4
+                0x0000000000003720                std::__throw_logic_error(char const*)@@GLIBCXX_3.4
+                0x0000000000003730                open@@GLIBC_2.2.5
+                0x0000000000003740                localtime@@GLIBC_2.2.5
+                0x0000000000003750                mosqpp::mosquittopp::reconnect()
+                0x0000000000003760                pthread_mutex_unlock@@GLIBC_2.2.5
+                0x0000000000003770                strftime@@GLIBC_2.2.5
+                0x0000000000003780                memcpy@@GLIBC_2.14
+                0x0000000000003790                connect@@GLIBC_2.2.5
+                0x00000000000037a0                timer_settime@@GLIBC_2.3.3
+                0x00000000000037b0                __cxa_atexit@@GLIBC_2.2.5
+                0x00000000000037c0                pthread_self@@GLIBC_2.2.5
+                0x00000000000037d0                time@@GLIBC_2.2.5
+                0x00000000000037e0                strcpy@@GLIBC_2.2.5
+                0x00000000000037f0                operator delete(void*)@@GLIBCXX_3.4
+                0x0000000000003800                __strcat_chk@@GLIBC_2.3.4
+                0x0000000000003810                operator new(unsigned long)@@GLIBCXX_3.4
+                0x0000000000003820                mosqpp::mosquittopp::loop_start()
+                0x0000000000003830                __xstat@@GLIBC_2.2.5
+                0x0000000000003840                __fxstat@@GLIBC_2.2.5
+                0x0000000000003850                cfsetospeed@@GLIBC_2.2.5
+                0x0000000000003860                mosqpp::mosquittopp::loop_stop(bool)
+                0x0000000000003870                __stack_chk_fail@@GLIBC_2.4
+                0x0000000000003880                tcgetattr@@GLIBC_2.2.5
+                0x0000000000003890                listen@@GLIBC_2.2.5
+                0x00000000000038a0                std::basic_ostream<char, std::char_traits<char> >& std::__ostream_insert<char, std::char_traits<char> >(std::basic_ostream<char, std::char_traits<char> >&, char const*, long)@@GLIBCXX_3.4.9
+                0x00000000000038b0                std::ctype<char>::_M_widen_init() const@@GLIBCXX_3.4.11
+                0x00000000000038c0                fopen@@GLIBC_2.2.5
+                0x00000000000038d0                free@@GLIBC_2.2.5
+                0x00000000000038e0                pthread_cond_init@@GLIBC_2.3.2
+                0x00000000000038f0                exit@@GLIBC_2.2.5
+                0x0000000000003900                pthread_attr_init@@GLIBC_2.2.5
+                0x0000000000003910                mosqpp::lib_cleanup()
+                0x0000000000003920                pread@@GLIBC_2.2.5
+                0x0000000000003930                std::__throw_bad_cast()@@GLIBCXX_3.4
+                0x0000000000003940                tcsetattr@@GLIBC_2.2.5
+                0x0000000000003950                mosqpp::mosquittopp::connect(char const*, int, int)
+                0x0000000000003960                malloc@@GLIBC_2.2.5
+                0x0000000000003970                pthread_attr_setschedpolicy@@GLIBC_2.2.5
+                0x0000000000003980                cfmakeraw@@GLIBC_2.2.5
+                0x0000000000003990                strcmp@@GLIBC_2.2.5
+                0x00000000000039a0                usleep@@GLIBC_2.2.5
+                0x00000000000039b0                read@@GLIBC_2.2.5
+                0x00000000000039c0                pthread_mutex_lock@@GLIBC_2.2.5
+                0x00000000000039d0                tcflush@@GLIBC_2.2.5
+                0x00000000000039e0                pthread_cond_wait@@GLIBC_2.3.2
+                0x00000000000039f0                std::ios_base::Init::Init()@@GLIBCXX_3.4
+                0x0000000000003a00                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_replace(unsigned long, unsigned long, char const*, unsigned long)@@GLIBCXX_3.4.21
+                0x0000000000003a10                gettimeofday@@GLIBC_2.2.5
+                0x0000000000003a20                __fprintf_chk@@GLIBC_2.3.4
+                0x0000000000003a30                timer_create@@GLIBC_2.3.3
+                0x0000000000003a40                __memcpy_chk@@GLIBC_2.3.4
+                0x0000000000003a50                std::ostream::operator<<(int)@@GLIBCXX_3.4
+                0x0000000000003a60                _Unwind_Resume@@GCC_3.0
+                0x0000000000003a70                std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)@@GLIBCXX_3.4.21
+                0x0000000000003a80                remove@@GLIBC_2.2.5
+                0x0000000000003a90                mosqpp::mosquittopp::loop(int, int)
+                0x0000000000003aa0                mosqpp::mosquittopp::connect_async(char const*, int, int)
+                0x0000000000003ab0                close@@GLIBC_2.2.5
+
+.text           0x0000000000003ac0     0x9015
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ .text.unlikely
+                0x0000000000003ac0       0x50 build_ak-base-linux/app_config.o
+ .text.unlikely
+                0x0000000000003b10       0x47 build_ak-base-linux/task_fw.o
+ .text.unlikely
+                0x0000000000003b57        0x7 build_ak-base-linux/link_phy.o
+ .text.unlikely
+                0x0000000000003b5e       0x20 build_ak-base-linux/mosqsupscribe.o
+ .text.unlikely
+                0x0000000000003b7e       0x28 build_ak-base-linux/mosqpublish.o
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ *fill*         0x0000000000003ba6        0xa 
+ .text.startup  0x0000000000003bb0      0x153 build_ak-base-linux/ak.o
+                0x0000000000003bb0                main
+ *fill*         0x0000000000003d03        0xd 
+ .text.startup  0x0000000000003d10       0x73 build_ak-base-linux/app_config.o
+ *fill*         0x0000000000003d83        0xd 
+ .text.startup  0x0000000000003d90       0x32 build_ak-base-linux/task_console.o
+ *fill*         0x0000000000003dc2        0xe 
+ .text.startup  0x0000000000003dd0       0x32 build_ak-base-linux/task_debug.o
+ *fill*         0x0000000000003e02        0xe 
+ .text.startup  0x0000000000003e10       0x3b build_ak-base-linux/task_fw.o
+ *fill*         0x0000000000003e4b        0x5 
+ .text.startup  0x0000000000003e50       0x32 build_ak-base-linux/mosqsupscribe.o
+ *fill*         0x0000000000003e82        0xe 
+ .text.startup  0x0000000000003e90       0x32 build_ak-base-linux/mosqpublish.o
+ *(.text.hot .text.hot.*)
+ *(SORT_BY_NAME(.text.sorted.*))
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ *fill*         0x0000000000003ec2        0xe 
+ .text          0x0000000000003ed0       0x2f /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000003ed0                _start
+ .text          0x0000000000003eff        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ *fill*         0x0000000000003eff        0x1 
+ .text          0x0000000000003f00       0xb9 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x0000000000003fb9        0x7 
+ .text          0x0000000000003fc0     0x1651 build_ak-base-linux/ak.o
+                0x0000000000003fc0                wait_all_tasks_started()
+                0x0000000000004030                get_pure_msg()
+                0x00000000000040c0                get_dynamic_msg()
+                0x0000000000004150                get_common_msg()
+                0x00000000000041e0                ak_memcpy_msg(ak_msg_t*)
+                0x0000000000004560                ak_msg_free(ak_msg_t*)
+                0x0000000000004590                set_msg_sig(ak_msg_t*, unsigned int)
+                0x00000000000045c0                set_msg_des_task_id(ak_msg_t*, unsigned int)
+                0x00000000000045f0                set_msg_src_task_id(ak_msg_t*, unsigned int)
+                0x0000000000004620                set_if_des_task_id(ak_msg_t*, unsigned int)
+                0x0000000000004650                set_if_src_task_id(ak_msg_t*, unsigned int)
+                0x0000000000004680                set_if_des_type(ak_msg_t*, unsigned int)
+                0x00000000000046b0                set_if_src_type(ak_msg_t*, unsigned int)
+                0x00000000000046e0                set_if_sig(ak_msg_t*, unsigned int)
+                0x0000000000004710                set_if_data_common_msg(ak_msg_t*, unsigned char*, unsigned int)
+                0x00000000000047c0                set_if_data_dynamic_msg(ak_msg_t*, unsigned char*, unsigned int)
+                0x0000000000004850                set_data_common_msg(ak_msg_t*, unsigned char*, unsigned int)
+                0x0000000000004900                get_data_common_msg(ak_msg_t*, unsigned char*, unsigned int)
+                0x0000000000004980                get_data_common_msg(ak_msg_t*)
+                0x0000000000004a10                get_data_len_common_msg(ak_msg_t*)
+                0x0000000000004a70                set_data_dynamic_msg(ak_msg_t*, unsigned char*, unsigned int)
+                0x0000000000004b00                get_data_dynamic_msg(ak_msg_t*, unsigned char*, unsigned int)
+                0x0000000000004b80                get_data_len_dynamic_msg(ak_msg_t*)
+                0x0000000000004be0                task_post(unsigned int, ak_msg_t*)
+                0x0000000000004c80                task_post_pure_msg(unsigned int, unsigned int, unsigned int)
+                0x0000000000004d90                task_post_pure_msg(unsigned int, unsigned int)
+                0x0000000000004ea0                task_post_common_msg(unsigned int, unsigned int, unsigned int, unsigned char*, unsigned int)
+                0x0000000000005030                task_post_common_msg(unsigned int, unsigned int, unsigned char*, unsigned int)
+                0x00000000000051c0                task_post_dynamic_msg(unsigned int, unsigned int, unsigned int, unsigned char*, unsigned int)
+                0x0000000000005320                task_post_dynamic_msg(unsigned int, unsigned int, unsigned char*, unsigned int)
+                0x0000000000005480                ak_msg_rev(unsigned int)
+                0x0000000000005520                get_msg_type(ak_msg_t*)
+                0x0000000000005530                get_task_id()
+ *fill*         0x0000000000005611        0xf 
+ .text          0x0000000000005620      0x1b9 build_ak-base-linux/message.o
+                0x0000000000005620                q_msg_init(q_msg_t*)
+                0x0000000000005640                q_msg_put(q_msg_t*, ak_msg_t*)
+                0x00000000000056a0                q_msg_get(q_msg_t*)
+                0x0000000000005710                q_msg_free(ak_msg_t*)
+                0x0000000000005760                q_msg_len(q_msg_t*)
+                0x00000000000057a0                q_msg_available(q_msg_t*)
+ *fill*         0x00000000000057d9        0x7 
+ .text          0x00000000000057e0      0x41b build_ak-base-linux/timer.o
+                0x0000000000005890                timer_handler(sigval)
+                0x0000000000005930                timer_entry(void*)
+                0x00000000000059e0                timer_set(unsigned int, unsigned int, unsigned int, timer_type_t)
+                0x0000000000005bb0                timer_remove_attr(unsigned int, unsigned int)
+                0x0000000000005bf0                timer_stick_get()
+ *fill*         0x0000000000005bfb        0x5 
+ .text          0x0000000000005c00        0xd build_ak-base-linux/fsm.o
+                0x0000000000005c00                fsm_dispatch(fsm_t*, ak_msg_t*)
+ *fill*         0x0000000000005c0d        0x3 
+ .text          0x0000000000005c10       0xe1 build_ak-base-linux/tsm.o
+                0x0000000000005c10                tsm_init(tsm_tbl_t*, tsm_t**, unsigned char)
+                0x0000000000005c60                tsm_dispatch(tsm_tbl_t*, ak_msg_t*)
+                0x0000000000005cd0                tsm_tran(tsm_tbl_t*, unsigned char)
+ *fill*         0x0000000000005cf1        0xf 
+ .text          0x0000000000005d00      0x107 build_ak-base-linux/sys_dbg.o
+                0x0000000000005d00                sys_dbg_fatal(char const*, unsigned char)
+                0x0000000000005d30                sys_dbg_get_time()
+ *fill*         0x0000000000005e07        0x9 
+ .text          0x0000000000005e10      0xaeb build_ak-base-linux/if_app.o
+                0x0000000000006370                gw_task_if_app_entry(void*)
+ *fill*         0x00000000000068fb        0x5 
+ .text          0x0000000000006900      0x165 build_ak-base-linux/if_console.o
+                0x0000000000006900                gw_task_if_console_entry(void*)
+ *fill*         0x0000000000006a65        0xb 
+ .text          0x0000000000006a70      0x142 build_ak-base-linux/if_cpu_serial.o
+                0x0000000000006a70                gw_task_if_cpu_serial_entry(void*)
+ *fill*         0x0000000000006bb2        0xe 
+ .text          0x0000000000006bc0       0xa8 build_ak-base-linux/app.o
+                0x0000000000006bc0                task_init()
+ *fill*         0x0000000000006c68        0x8 
+ .text          0x0000000000006c70      0x407 build_ak-base-linux/app_config.o
+                0x0000000000006c70                app_config::app_config()
+                0x0000000000006c70                app_config::app_config()
+                0x0000000000006c80                app_config::initializer(char*)
+                0x0000000000007030                app_config::set_config_path_file(char*)
+                0x0000000000007040                app_config::get_config_path_file(char*)
+                0x0000000000007060                app_config::parser_config_file(void*)
+                0x0000000000007070                app_config::write_config_data(void*)
+ *fill*         0x0000000000007077        0x9 
+ .text          0x0000000000007080      0x217 build_ak-base-linux/app_data.o
+                0x0000000000007080                show_app_table()
+ *fill*         0x0000000000007297        0x9 
+ .text          0x00000000000072a0      0x39c build_ak-base-linux/shell.o
+ *fill*         0x000000000000763c        0x4 
+ .text          0x0000000000007640      0x150 build_ak-base-linux/task_console.o
+                0x0000000000007640                gw_task_console_entry(void*)
+ .text          0x0000000000007790       0xa4 build_ak-base-linux/task_debug.o
+                0x0000000000007790                fopen_s(_IO_FILE**, char const*, char const*)
+                0x00000000000077b0                gw_task_debug_entry(void*)
+ *fill*         0x0000000000007834        0xc 
+ .text          0x0000000000007840      0xe52 build_ak-base-linux/task_fw.o
+                0x0000000000007840                gw_task_fw_entry(void*)
+ *fill*         0x0000000000008692        0xe 
+ .text._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag
+                0x00000000000086a0       0xd0 build_ak-base-linux/task_fw.o
+                0x00000000000086a0                void std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct<char const*>(char const*, char const*, std::forward_iterator_tag)
+ .text          0x0000000000008770      0x19f build_ak-base-linux/task_if.o
+                0x0000000000008770                gw_task_if_entry(void*)
+ .text          0x000000000000890f        0x0 build_ak-base-linux/task_list.o
+ *fill*         0x000000000000890f        0x1 
+ .text          0x0000000000008910      0x323 build_ak-base-linux/base64.o
+                0x0000000000008910                Base64decode_len
+                0x0000000000008950                Base64decode
+                0x0000000000008ac0                Base64encode_len
+                0x0000000000008af0                Base64encode
+ *fill*         0x0000000000008c33        0xd 
+ .text          0x0000000000008c40       0xf9 build_ak-base-linux/cmd_line.o
+                0x0000000000008c40                cmd_line_parser
+ *fill*         0x0000000000008d39        0x7 
+ .text          0x0000000000008d40      0x12b build_ak-base-linux/fifo.o
+                0x0000000000008d40                fifo_init
+                0x0000000000008d60                fifo_availble
+                0x0000000000008d70                fifo_is_empty
+                0x0000000000008d80                fifo_is_full
+                0x0000000000008d90                fifo_put
+                0x0000000000008e00                fifo_get
+ *fill*         0x0000000000008e6b        0x5 
+ .text          0x0000000000008e70      0x1a4 build_ak-base-linux/firmware.o
+                0x0000000000008e70                firmware_get_info(firmware_header_t*, char const*)
+                0x0000000000008f70                firmware_read(unsigned char*, unsigned int, unsigned int, char const*)
+ *fill*         0x0000000000009014        0xc 
+ .text          0x0000000000009020      0xb42 build_ak-base-linux/link.o
+                0x0000000000009a60                link_init_state_machine()
+                0x0000000000009a90                gw_task_link_entry(void*)
+ *fill*         0x0000000000009b62        0xe 
+ .text          0x0000000000009b70      0xbe2 build_ak-base-linux/link_mac.o
+                0x0000000000009b70                fsm_link_mac_state_handle(ak_msg_t*)
+                0x000000000000a650                fsm_link_mac_state_init(ak_msg_t*)
+                0x000000000000a710                gw_task_link_mac_entry(void*)
+ *fill*         0x000000000000a752        0xe 
+ .text          0x000000000000a760     0x1076 build_ak-base-linux/link_phy.o
+                0x000000000000a830                fsm_link_phy_state_handle(ak_msg_t*)
+                0x000000000000ae10                gw_task_link_phy_entry(void*)
+                0x000000000000af80                task_link_phy(ak_msg_t*)
+                0x000000000000afa0                link_phy_get_send_frame_to()
+                0x000000000000afc0                fsm_link_phy_state_init(ak_msg_t*)
+                0x000000000000b040                link_phy_max_retry_set(unsigned char)
+                0x000000000000b050                link_phy_max_retry_get()
+                0x000000000000b060                gw_link_phy_frame_rev_byte(unsigned char)
+                0x000000000000b780                link_phy_frame_parser_state_revc_get()
+                0x000000000000b7b0                link_phy_frame_parser_state_revc_set(link_phy_frame_parser_state_e)
+ *fill*         0x000000000000b7d6        0xa 
+ .text          0x000000000000b7e0      0x5db build_ak-base-linux/link_data.o
+                0x000000000000b7e0                link_pdu_init()
+                0x000000000000b920                link_pdu_malloc()
+                0x000000000000b970                link_pdu_free(link_pdu_t*)
+                0x000000000000baa0                link_pdu_get(unsigned int)
+                0x000000000000bbc0                link_pdu_free(unsigned int)
+                0x000000000000bd00                link_set_src_addr(unsigned int)
+                0x000000000000bd30                link_get_src_addr()
+                0x000000000000bd60                link_set_des_addr(unsigned int)
+                0x000000000000bd90                link_get_des_addr()
+ *fill*         0x000000000000bdbb        0x5 
+ .text          0x000000000000bdc0      0x60d build_ak-base-linux/mosqsupscribe.o
+                0x000000000000bdc0                mosqSupscribe::~mosqSupscribe()
+                0x000000000000bdc0                mosqSupscribe::~mosqSupscribe()
+                0x000000000000bde0                mosqSupscribe::~mosqSupscribe()
+                0x000000000000be00                mosqSupscribe::on_subscribe(int, int, int const*)
+                0x000000000000bf00                mosqSupscribe::on_connect(int)
+                0x000000000000bfb0                mosqSupscribe::on_message(mosquitto_message const*)
+                0x000000000000c220                init_packMsg(packMessages_t*)
+                0x000000000000c2d0                mosqSupscribe::mosqSupscribe(packMessages_t*, char const*)
+                0x000000000000c2d0                mosqSupscribe::mosqSupscribe(packMessages_t*, char const*)
+                0x000000000000c320                mosqSupscribe::setPkgMsg(packMessages_t*)
+                0x000000000000c330                test_mymosqSubscribe()
+ *fill*         0x000000000000c3cd        0x3 
+ .text._ZN6mosqpp11mosquittopp21on_connect_with_flagsEii
+                0x000000000000c3d0        0x5 build_ak-base-linux/mosqsupscribe.o
+                0x000000000000c3d0                mosqpp::mosquittopp::on_connect_with_flags(int, int)
+ *fill*         0x000000000000c3d5        0xb 
+ .text._ZN6mosqpp11mosquittopp13on_disconnectEi
+                0x000000000000c3e0        0x5 build_ak-base-linux/mosqsupscribe.o
+                0x000000000000c3e0                mosqpp::mosquittopp::on_disconnect(int)
+ *fill*         0x000000000000c3e5        0xb 
+ .text._ZN6mosqpp11mosquittopp10on_publishEi
+                0x000000000000c3f0        0x5 build_ak-base-linux/mosqsupscribe.o
+                0x000000000000c3f0                mosqpp::mosquittopp::on_publish(int)
+ *fill*         0x000000000000c3f5        0xb 
+ .text._ZN6mosqpp11mosquittopp14on_unsubscribeEi
+                0x000000000000c400        0x5 build_ak-base-linux/mosqsupscribe.o
+                0x000000000000c400                mosqpp::mosquittopp::on_unsubscribe(int)
+ *fill*         0x000000000000c405        0xb 
+ .text._ZN6mosqpp11mosquittopp6on_logEiPKc
+                0x000000000000c410        0x5 build_ak-base-linux/mosqsupscribe.o
+                0x000000000000c410                mosqpp::mosquittopp::on_log(int, char const*)
+ *fill*         0x000000000000c415        0xb 
+ .text._ZN6mosqpp11mosquittopp8on_errorEv
+                0x000000000000c420        0x5 build_ak-base-linux/mosqsupscribe.o
+                0x000000000000c420                mosqpp::mosquittopp::on_error()
+ *fill*         0x000000000000c425        0xb 
+ .text._ZNKSt5ctypeIcE8do_widenEc
+                0x000000000000c430        0x7 build_ak-base-linux/mosqsupscribe.o
+                0x000000000000c430                std::ctype<char>::do_widen(char) const
+ *fill*         0x000000000000c437        0x9 
+ .text          0x000000000000c440      0x5fc build_ak-base-linux/mosqpublish.o
+                0x000000000000c440                mosqpublish::~mosqpublish()
+                0x000000000000c440                mosqpublish::~mosqpublish()
+                0x000000000000c470                mosqpublish::~mosqpublish()
+                0x000000000000c4a0                mosqpublish::on_publish(int)
+                0x000000000000c560                mosqpublish::on_disconnect(int)
+                0x000000000000c620                mosqpublish::on_connect(int)
+                0x000000000000c770                init_packMsg_pub(packMessages_pub_t*)
+                0x000000000000c820                mosqpublish::mosqpublish(packMessages_pub_t*, char const*)
+                0x000000000000c820                mosqpublish::mosqpublish(packMessages_pub_t*, char const*)
+                0x000000000000c880                mosqpublish::send_message(char const*)
+                0x000000000000c8d0                test_mymosqPublish()
+ *fill*         0x000000000000ca3c        0x4 
+ .text._ZN6mosqpp11mosquittopp10on_messageEPK17mosquitto_message
+                0x000000000000ca40        0x5 build_ak-base-linux/mosqpublish.o
+                0x000000000000ca40                mosqpp::mosquittopp::on_message(mosquitto_message const*)
+ *fill*         0x000000000000ca45        0xb 
+ .text._ZN6mosqpp11mosquittopp12on_subscribeEiiPKi
+                0x000000000000ca50        0x5 build_ak-base-linux/mosqpublish.o
+                0x000000000000ca50                mosqpp::mosquittopp::on_subscribe(int, int, int const*)
+ *fill*         0x000000000000ca55        0xb 
+ .text          0x000000000000ca60       0x75 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                0x000000000000ca60                __libc_csu_init
+                0x000000000000cad0                __libc_csu_fini
+ .text          0x000000000000cad5        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .text          0x000000000000cad5        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ *(.gnu.warning)
+
+.fini           0x000000000000cad8        0xd
+ *(SORT_NONE(.fini))
+ .fini          0x000000000000cad8        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+                0x000000000000cad8                _fini
+ .fini          0x000000000000cae0        0x5 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+                [!provide]                        PROVIDE (__etext = .)
+                [!provide]                        PROVIDE (_etext = .)
+                [!provide]                        PROVIDE (etext = .)
+                0x000000000000d000                . = ALIGN (CONSTANT (MAXPAGESIZE))
+                0x000000000000d000                . = SEGMENT_START ("rodata-segment", (ALIGN (CONSTANT (MAXPAGESIZE)) + (. & (CONSTANT (MAXPAGESIZE) - 0x1))))
+
+.rodata         0x000000000000d000     0x17fe
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x000000000000d000        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                0x000000000000d000                _IO_stdin_used
+ .rodata.str1.1
+                0x000000000000d004       0x3b build_ak-base-linux/ak.o
+ *fill*         0x000000000000d03f        0x1 
+ .rodata.str1.8
+                0x000000000000d040       0x37 build_ak-base-linux/ak.o
+ .rodata.str1.1
+                0x000000000000d077       0x28 build_ak-base-linux/timer.o
+                                         0x45 (size before relaxing)
+ *fill*         0x000000000000d09f        0x1 
+ .rodata.str1.8
+                0x000000000000d0a0       0x70 build_ak-base-linux/timer.o
+ .rodata.cst16  0x000000000000d110       0x10 build_ak-base-linux/timer.o
+ .rodata.str1.1
+                0x000000000000d120        0x4 build_ak-base-linux/tsm.o
+ *fill*         0x000000000000d124        0x4 
+ .rodata.str1.8
+                0x000000000000d128       0x1f build_ak-base-linux/sys_dbg.o
+ .rodata.str1.1
+                0x000000000000d147       0x1b build_ak-base-linux/sys_dbg.o
+ .rodata.str1.1
+                0x000000000000d162        0x8 build_ak-base-linux/if_app.o
+                                         0x25 (size before relaxing)
+ *fill*         0x000000000000d16a        0x6 
+ .rodata.str1.8
+                0x000000000000d170      0x2f7 build_ak-base-linux/if_app.o
+ .rodata.str1.1
+                0x000000000000d467       0x1a build_ak-base-linux/if_console.o
+                                         0x3f (size before relaxing)
+ *fill*         0x000000000000d481        0x7 
+ .rodata.str1.8
+                0x000000000000d488       0x66 build_ak-base-linux/if_console.o
+ .rodata.str1.1
+                0x000000000000d4ee       0x25 build_ak-base-linux/if_cpu_serial.o
+ *fill*         0x000000000000d4ee        0x2 
+ .rodata.str1.8
+                0x000000000000d4f0       0x69 build_ak-base-linux/if_cpu_serial.o
+ *fill*         0x000000000000d559        0x3 
+ .rodata        0x000000000000d55c       0x18 build_ak-base-linux/if_cpu_serial.o
+ .rodata.str1.1
+                0x000000000000d574       0x27 build_ak-base-linux/app.o
+ *fill*         0x000000000000d59b        0x5 
+ .rodata.str1.8
+                0x000000000000d5a0       0x2a build_ak-base-linux/app_config.o
+ *fill*         0x000000000000d5ca        0x6 
+ .rodata.cst16  0x000000000000d5d0       0x10 build_ak-base-linux/app_config.o
+ .rodata.str1.1
+                0x000000000000d5e0       0xdb build_ak-base-linux/app_data.o
+                                        0x100 (size before relaxing)
+ *fill*         0x000000000000d6bb        0x5 
+ .rodata.str1.8
+                0x000000000000d6c0       0xbb build_ak-base-linux/app_data.o
+ .rodata.str1.1
+                0x000000000000d77b       0x8d build_ak-base-linux/shell.o
+ .rodata.str1.8
+                0x000000000000d808       0x7e build_ak-base-linux/shell.o
+ *fill*         0x000000000000d886        0xa 
+ .rodata.cst16  0x000000000000d890       0xd0 build_ak-base-linux/shell.o
+ .rodata.str1.1
+                0x000000000000d960       0x74 build_ak-base-linux/task_console.o
+                                         0x99 (size before relaxing)
+ *fill*         0x000000000000d9d4        0x4 
+ .rodata.str1.8
+                0x000000000000d9d8       0x39 build_ak-base-linux/task_console.o
+ .rodata.str1.1
+                0x000000000000da11       0x1b build_ak-base-linux/task_debug.o
+                                         0x40 (size before relaxing)
+ *fill*         0x000000000000da2c        0x4 
+ .rodata.str1.8
+                0x000000000000da30       0x37 build_ak-base-linux/task_debug.o
+ .rodata._ZNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEE12_M_constructIPKcEEvT_S8_St20forward_iterator_tag.str1.8
+                0x000000000000da67       0x2a build_ak-base-linux/task_fw.o
+ .rodata.str1.1
+                0x000000000000da67      0x168 build_ak-base-linux/task_fw.o
+                                        0x1a1 (size before relaxing)
+ *fill*         0x000000000000dbcf        0x1 
+ .rodata.str1.8
+                0x000000000000dbd0      0x381 build_ak-base-linux/task_fw.o
+ *fill*         0x000000000000df51        0x3 
+ .rodata        0x000000000000df54       0x38 build_ak-base-linux/task_fw.o
+ .rodata.cst4   0x000000000000df8c        0x4 build_ak-base-linux/task_fw.o
+ .rodata.str1.1
+                0x000000000000df90       0x18 build_ak-base-linux/task_if.o
+                                         0x3d (size before relaxing)
+ .rodata.str1.8
+                0x000000000000dfa8       0x34 build_ak-base-linux/task_if.o
+ .rodata        0x000000000000dfdc       0x18 build_ak-base-linux/task_if.o
+ .rodata.str1.1
+                0x000000000000dff4       0x81 build_ak-base-linux/task_list.o
+                                         0x91 (size before relaxing)
+ *fill*         0x000000000000e075        0xb 
+ .rodata        0x000000000000e080      0x160 build_ak-base-linux/base64.o
+ .rodata.str1.1
+                0x000000000000e1e0        0x5 build_ak-base-linux/fifo.o
+ .rodata.str1.1
+                0x000000000000e1e5       0x19 build_ak-base-linux/link.o
+                                         0x46 (size before relaxing)
+ *fill*         0x000000000000e1fe        0x2 
+ .rodata.str1.8
+                0x000000000000e200      0x366 build_ak-base-linux/link.o
+ *fill*         0x000000000000e566        0x2 
+ .rodata        0x000000000000e568       0x20 build_ak-base-linux/link.o
+ .rodata.str1.1
+                0x000000000000e588        0x9 build_ak-base-linux/link_mac.o
+ *fill*         0x000000000000e591        0x3 
+ .rodata        0x000000000000e594       0x18 build_ak-base-linux/link_mac.o
+ .rodata.str1.1
+                0x000000000000e5ac       0x1f build_ak-base-linux/link_phy.o
+                                         0x3c (size before relaxing)
+ *fill*         0x000000000000e5cb        0x1 
+ .rodata        0x000000000000e5cc       0x38 build_ak-base-linux/link_phy.o
+ *fill*         0x000000000000e604        0x4 
+ .rodata.str1.8
+                0x000000000000e608       0x57 build_ak-base-linux/link_phy.o
+ *fill*         0x000000000000e65f        0x1 
+ .rodata.str1.8
+                0x000000000000e660       0x24 build_ak-base-linux/link_data.o
+ .rodata.str1.1
+                0x000000000000e684        0xd build_ak-base-linux/link_data.o
+                                          0xf (size before relaxing)
+ .rodata.str1.1
+                0x000000000000e691       0x4e build_ak-base-linux/mosqsupscribe.o
+ *fill*         0x000000000000e6df        0x1 
+ .rodata.str1.8
+                0x000000000000e6e0       0x24 build_ak-base-linux/mosqsupscribe.o
+ *fill*         0x000000000000e704        0xc 
+ .rodata._ZTS13mosqSupscribe
+                0x000000000000e710       0x10 build_ak-base-linux/mosqsupscribe.o
+                0x000000000000e710                typeinfo name for mosqSupscribe
+ .rodata.str1.1
+                0x000000000000e720       0x74 build_ak-base-linux/mosqpublish.o
+                                         0x90 (size before relaxing)
+ *fill*         0x000000000000e794        0x4 
+ .rodata.str1.8
+                0x000000000000e798       0x57 build_ak-base-linux/mosqpublish.o
+ *fill*         0x000000000000e7ef        0x1 
+ .rodata._ZTS11mosqpublish
+                0x000000000000e7f0        0xe build_ak-base-linux/mosqpublish.o
+                0x000000000000e7f0                typeinfo name for mosqpublish
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x000000000000e800      0x51c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x000000000000e800      0x51c /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                0x000000000000e800                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x000000000000ed20     0x1e20
+ *(.eh_frame)
+ .eh_frame      0x000000000000ed20       0x30 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x2c (size before relaxing)
+ *fill*         0x000000000000ed50        0x0 
+ .eh_frame      0x000000000000ed50       0x28 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000000ed78       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000ed90       0x18 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000eda8      0x698 build_ak-base-linux/ak.o
+                                        0x6b0 (size before relaxing)
+ .eh_frame      0x000000000000f440       0xd8 build_ak-base-linux/message.o
+                                         0xf0 (size before relaxing)
+ .eh_frame      0x000000000000f518      0x110 build_ak-base-linux/timer.o
+                                        0x128 (size before relaxing)
+ .eh_frame      0x000000000000f628       0x18 build_ak-base-linux/fsm.o
+                                         0x30 (size before relaxing)
+ .eh_frame      0x000000000000f640       0x80 build_ak-base-linux/tsm.o
+                                         0x98 (size before relaxing)
+ .eh_frame      0x000000000000f6c0       0x40 build_ak-base-linux/sys_dbg.o
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000000f700      0x240 build_ak-base-linux/if_app.o
+                                        0x258 (size before relaxing)
+ .eh_frame      0x000000000000f940       0x40 build_ak-base-linux/if_console.o
+                                         0x58 (size before relaxing)
+ .eh_frame      0x000000000000f980       0x38 build_ak-base-linux/if_cpu_serial.o
+                                         0x50 (size before relaxing)
+ .eh_frame      0x000000000000f9b8       0x28 build_ak-base-linux/app.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x000000000000f9e0      0x140 build_ak-base-linux/app_config.o
+                                        0x158 (size before relaxing)
+ .eh_frame      0x000000000000fb20       0xf0 build_ak-base-linux/app_data.o
+                                        0x108 (size before relaxing)
+ .eh_frame      0x000000000000fc10       0x88 build_ak-base-linux/shell.o
+                                         0xa0 (size before relaxing)
+ .eh_frame      0x000000000000fc98       0x50 build_ak-base-linux/task_console.o
+                                         0x68 (size before relaxing)
+ .eh_frame      0x000000000000fce8       0x68 build_ak-base-linux/task_debug.o
+                                         0x80 (size before relaxing)
+ .eh_frame      0x000000000000fd50      0x128 build_ak-base-linux/task_fw.o
+                                        0x160 (size before relaxing)
+ .eh_frame      0x000000000000fe78       0x38 build_ak-base-linux/task_if.o
+                                         0x50 (size before relaxing)
+ .eh_frame      0x000000000000feb0       0x70 build_ak-base-linux/base64.o
+                                         0x88 (size before relaxing)
+ .eh_frame      0x000000000000ff20       0x48 build_ak-base-linux/cmd_line.o
+                                         0x60 (size before relaxing)
+ .eh_frame      0x000000000000ff68       0xa8 build_ak-base-linux/fifo.o
+                                         0xc0 (size before relaxing)
+ .eh_frame      0x0000000000010010       0x80 build_ak-base-linux/firmware.o
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000000010090      0x1c8 build_ak-base-linux/link.o
+                                        0x1e0 (size before relaxing)
+ .eh_frame      0x0000000000010258       0x70 build_ak-base-linux/link_mac.o
+                                         0x88 (size before relaxing)
+ .eh_frame      0x00000000000102c8      0x1f0 build_ak-base-linux/link_phy.o
+                                        0x208 (size before relaxing)
+ .eh_frame      0x00000000000104b8      0x190 build_ak-base-linux/link_data.o
+                                        0x1a8 (size before relaxing)
+ .eh_frame      0x0000000000010648      0x288 build_ak-base-linux/mosqsupscribe.o
+                                        0x2c0 (size before relaxing)
+ .eh_frame      0x00000000000108d0      0x210 build_ak-base-linux/mosqpublish.o
+                                        0x2d8 (size before relaxing)
+ .eh_frame      0x0000000000010ae0       0x5c /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x0000000000010b3c        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+                0x0000000000010b40       0xc3
+ *(.gcc_except_table .gcc_except_table.*)
+ .gcc_except_table
+                0x0000000000010b40       0x30 build_ak-base-linux/app_config.o
+ .gcc_except_table
+                0x0000000000010b70       0x28 build_ak-base-linux/task_fw.o
+ .gcc_except_table
+                0x0000000000010b98       0x2d build_ak-base-linux/mosqsupscribe.o
+ .gcc_except_table
+                0x0000000000010bc5       0x3e build_ak-base-linux/mosqpublish.o
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges*)
+                0x0000000000012990                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges*)
+
+.tdata          0x0000000000012990        0x0
+                [!provide]                        PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000000012990        0x0
+                [!provide]                        PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end = .)
+
+.init_array     0x0000000000012990       0x38
+                0x0000000000012990                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000000012990        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .init_array    0x0000000000012998        0x8 build_ak-base-linux/app_config.o
+ .init_array    0x00000000000129a0        0x8 build_ak-base-linux/task_console.o
+ .init_array    0x00000000000129a8        0x8 build_ak-base-linux/task_debug.o
+ .init_array    0x00000000000129b0        0x8 build_ak-base-linux/task_fw.o
+ .init_array    0x00000000000129b8        0x8 build_ak-base-linux/mosqsupscribe.o
+ .init_array    0x00000000000129c0        0x8 build_ak-base-linux/mosqpublish.o
+                0x00000000000129c8                PROVIDE (__init_array_end = .)
+
+.fini_array     0x00000000000129c8        0x8
+                [!provide]                        PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x00000000000129c8        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                [!provide]                        PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x00000000000129d0      0x100
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ .data.rel.ro.local._ZTV13mosqSupscribe
+                0x00000000000129d0       0x68 build_ak-base-linux/mosqsupscribe.o
+                0x00000000000129d0                vtable for mosqSupscribe
+ .data.rel.ro.local._ZTV11mosqpublish
+                0x0000000000012a38       0x68 build_ak-base-linux/mosqpublish.o
+                0x0000000000012a38                vtable for mosqpublish
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x0000000000012aa0        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .data.rel.ro._ZTI13mosqSupscribe
+                0x0000000000012aa0       0x18 build_ak-base-linux/mosqsupscribe.o
+                0x0000000000012aa0                typeinfo for mosqSupscribe
+ .data.rel.ro._ZTI11mosqpublish
+                0x0000000000012ab8       0x18 build_ak-base-linux/mosqpublish.o
+                0x0000000000012ab8                typeinfo for mosqpublish
+
+.dynamic        0x0000000000012ad0      0x240
+ *(.dynamic)
+ .dynamic       0x0000000000012ad0      0x240 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000012ad0                _DYNAMIC
+
+.got            0x0000000000012d10      0x2f0
+ *(.got.plt)
+ .got.plt       0x0000000000012d10      0x2b8 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000012d10                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ *(.got)
+ .got           0x0000000000012fc8       0x38 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ *(.igot)
+                0x0000000000013000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.data           0x0000000000013000      0x988
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000000013000        0x4 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                0x0000000000013000                data_start
+                0x0000000000013000                __data_start
+ .data          0x0000000000013004        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .data          0x0000000000013004        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x0000000000013004        0x4 
+ .data.rel.local
+                0x0000000000013008        0x8 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                0x0000000000013008                __dso_handle
+ .data          0x0000000000013010        0x0 build_ak-base-linux/ak.o
+ .data          0x0000000000013010        0x0 build_ak-base-linux/message.o
+ .data          0x0000000000013010        0x0 build_ak-base-linux/timer.o
+ .data          0x0000000000013010        0x0 build_ak-base-linux/fsm.o
+ .data          0x0000000000013010        0x0 build_ak-base-linux/tsm.o
+ .data          0x0000000000013010        0x0 build_ak-base-linux/sys_dbg.o
+ .data          0x0000000000013010        0x0 build_ak-base-linux/if_app.o
+ .data          0x0000000000013010        0x0 build_ak-base-linux/if_console.o
+ .data          0x0000000000013010        0x0 build_ak-base-linux/if_cpu_serial.o
+ .data          0x0000000000013010        0x0 build_ak-base-linux/app.o
+ .data          0x0000000000013010        0x0 build_ak-base-linux/app_config.o
+ .data.rel.local.DW.ref.__gxx_personality_v0
+                0x0000000000013010        0x8 build_ak-base-linux/app_config.o
+                0x0000000000013010                DW.ref.__gxx_personality_v0
+ .data          0x0000000000013018        0x4 build_ak-base-linux/app_data.o
+                0x0000000000013018                if_app_list_size
+ *fill*         0x000000000001301c        0x4 
+ .data.rel.local
+                0x0000000000013020       0x60 build_ak-base-linux/app_data.o
+                0x0000000000013020                if_app_list
+ .data          0x0000000000013080       0x40 build_ak-base-linux/shell.o
+                0x0000000000013080                FW_Link_Request_Frame
+ .data.rel.local
+                0x00000000000130c0       0x78 build_ak-base-linux/shell.o
+                0x00000000000130c0                lgn_cmd_table
+ .data          0x0000000000013138        0x0 build_ak-base-linux/task_console.o
+ .data          0x0000000000013138        0x0 build_ak-base-linux/task_debug.o
+ .data          0x0000000000013138        0x0 build_ak-base-linux/task_fw.o
+ .data          0x0000000000013138        0x0 build_ak-base-linux/task_if.o
+ .data          0x0000000000013138        0x0 build_ak-base-linux/task_list.o
+ *fill*         0x0000000000013138        0x8 
+ .data.rel      0x0000000000013140      0x840 build_ak-base-linux/task_list.o
+                0x0000000000013140                task_list
+ .data          0x0000000000013980        0x0 build_ak-base-linux/base64.o
+ .data          0x0000000000013980        0x0 build_ak-base-linux/cmd_line.o
+ .data          0x0000000000013980        0x0 build_ak-base-linux/fifo.o
+ .data          0x0000000000013980        0x0 build_ak-base-linux/firmware.o
+ .data          0x0000000000013980        0x0 build_ak-base-linux/link.o
+ .data          0x0000000000013980        0x0 build_ak-base-linux/link_mac.o
+ .data          0x0000000000013980        0x0 build_ak-base-linux/link_phy.o
+ .data          0x0000000000013980        0x8 build_ak-base-linux/link_data.o
+ .data          0x0000000000013988        0x0 build_ak-base-linux/mosqsupscribe.o
+ .data          0x0000000000013988        0x0 build_ak-base-linux/mosqpublish.o
+ .data          0x0000000000013988        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .data          0x0000000000013988        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .data          0x0000000000013988        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+
+.tm_clone_table
+                0x0000000000013988        0x0
+ .tm_clone_table
+                0x0000000000013988        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ .tm_clone_table
+                0x0000000000013988        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.data1
+ *(.data1)
+                0x0000000000013988                _edata = .
+                [!provide]                        PROVIDE (edata = .)
+                0x0000000000013988                . = .
+                0x0000000000013988                __bss_start = .
+
+.bss            0x00000000000139c0     0x2ab0
+ *(.dynbss)
+ *fill*         0x00000000000139c0        0x0 
+ .dynbss        0x00000000000139c0      0x168 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+                0x00000000000139c0                stdin@@GLIBC_2.2.5
+                0x0000000000013a00                std::cout@@GLIBCXX_3.4
+                0x0000000000013b20                stderr@@GLIBC_2.2.5
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000000013b28        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/Scrt1.o
+ .bss           0x0000000000013b28        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crti.o
+ .bss           0x0000000000013b28        0x1 /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+ *fill*         0x0000000000013b29       0x17 
+ .bss           0x0000000000013b40       0x48 build_ak-base-linux/ak.o
+ .bss           0x0000000000013b88        0x0 build_ak-base-linux/message.o
+ *fill*         0x0000000000013b88       0x18 
+ .bss           0x0000000000013ba0       0xd8 build_ak-base-linux/timer.o
+                0x0000000000013ba0                timer_mailbox
+ .bss           0x0000000000013c78        0x0 build_ak-base-linux/fsm.o
+ .bss           0x0000000000013c78        0x0 build_ak-base-linux/tsm.o
+ *fill*         0x0000000000013c78        0x8 
+ .bss           0x0000000000013c80       0x40 build_ak-base-linux/sys_dbg.o
+ .bss           0x0000000000013cc0       0x4c build_ak-base-linux/if_app.o
+                0x0000000000013cc0                gw_task_if_app_mailbox
+ *fill*         0x0000000000013d0c       0x14 
+ .bss           0x0000000000013d20       0x60 build_ak-base-linux/if_console.o
+                0x0000000000013d20                gw_task_if_console_mailbox
+ .bss           0x0000000000013d80       0x40 build_ak-base-linux/if_cpu_serial.o
+                0x0000000000013d80                gw_task_if_cpu_serial_mailbox
+ .bss           0x0000000000013dc0        0x0 build_ak-base-linux/app.o
+ .bss           0x0000000000013dc0       0x40 build_ak-base-linux/app_config.o
+                0x0000000000013dc0                config_file_path[abi:cxx11]
+                0x0000000000013de0                config_folder[abi:cxx11]
+ .bss           0x0000000000013e00        0x0 build_ak-base-linux/app_data.o
+ .bss           0x0000000000013e00        0x0 build_ak-base-linux/shell.o
+ .bss           0x0000000000013e00       0x61 build_ak-base-linux/task_console.o
+                0x0000000000013e00                gw_task_console_mailbox
+ *fill*         0x0000000000013e61       0x1f 
+ .bss           0x0000000000013e80       0x41 build_ak-base-linux/task_debug.o
+                0x0000000000013e80                gw_task_debug_mailbox
+ *fill*         0x0000000000013ec1       0x1f 
+ .bss           0x0000000000013ee0      0x4ac build_ak-base-linux/task_fw.o
+                0x0000000000013ee0                gateway_fw_dev_update_req
+                0x0000000000014300                firmware_file_name[abi:cxx11]
+                0x0000000000014320                file_firmware_info
+                0x0000000000014330                current_firmware_info
+                0x0000000000014340                gw_task_fw_mailbox
+ *fill*         0x000000000001438c       0x14 
+ .bss           0x00000000000143a0       0x40 build_ak-base-linux/task_if.o
+                0x00000000000143a0                gw_task_if_mailbox
+ .bss           0x00000000000143e0        0x0 build_ak-base-linux/task_list.o
+ .bss           0x00000000000143e0        0x0 build_ak-base-linux/base64.o
+ .bss           0x00000000000143e0        0x0 build_ak-base-linux/cmd_line.o
+ .bss           0x00000000000143e0        0x0 build_ak-base-linux/fifo.o
+ .bss           0x00000000000143e0        0x8 build_ak-base-linux/firmware.o
+                0x00000000000143e0                ssize
+ *fill*         0x00000000000143e8       0x18 
+ .bss           0x0000000000014400       0x48 build_ak-base-linux/link.o
+                0x0000000000014400                gw_task_link_mailbox
+ *fill*         0x0000000000014448       0x18 
+ .bss           0x0000000000014460      0x108 build_ak-base-linux/link_mac.o
+                0x0000000000014460                gw_task_link_mac_mailbox
+                0x00000000000144a0                fsm_link_mac
+                0x00000000000144a8                link_mac_frame_rev_to_interval
+                0x00000000000144ac                link_mac_frame_send_to_interval
+ *fill*         0x0000000000014568       0x18 
+ .bss           0x0000000000014580     0x1185 build_ak-base-linux/link_phy.o
+                0x0000000000014580                gw_task_link_phy_mailbox
+                0x00000000000145c0                fsm_link_phy
+                0x00000000000145c8                link_phy_frame_parser_state_revc
+ *fill*         0x0000000000015705       0x1b 
+ .bss           0x0000000000015720      0xd48 build_ak-base-linux/link_data.o
+ .bss           0x0000000000016468        0x1 build_ak-base-linux/mosqsupscribe.o
+ .bss           0x0000000000016469        0x1 build_ak-base-linux/mosqpublish.o
+ .bss           0x000000000001646a        0x0 /usr/lib/x86_64-linux-gnu/libc_nonshared.a(elf-init.oS)
+ .bss           0x000000000001646a        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+ .bss           0x000000000001646a        0x0 /usr/lib/gcc/x86_64-linux-gnu/9/../../../x86_64-linux-gnu/crtn.o
+ *(COMMON)
+                0x0000000000016470                . = ALIGN ((. != 0x0)?0x8:0x1)
+ *fill*         0x000000000001646a        0x6 
+
+.lbss
+ *(.dynlbss)
+ *(.lbss .lbss.* .gnu.linkonce.lb.*)
+ *(LARGE_COMMON)
+                0x0000000000016470                . = ALIGN (0x8)
+                0x0000000000016470                . = SEGMENT_START ("ldata-segment", .)
+
+.lrodata
+ *(.lrodata .lrodata.* .gnu.linkonce.lr.*)
+
+.ldata          0x0000000000018470        0x0
+ *(.ldata .ldata.* .gnu.linkonce.l.*)
+                0x0000000000018470                . = ALIGN ((. != 0x0)?0x8:0x1)
+                0x0000000000018470                . = ALIGN (0x8)
+                0x0000000000016470                _end = .
+                [!provide]                        PROVIDE (end = .)
+                0x0000000000018470                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x2b
+ *(.comment)
+ .comment       0x0000000000000000       0x2b /usr/lib/gcc/x86_64-linux-gnu/9/crtbeginS.o
+                                         0x2c (size before relaxing)
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/ak.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/message.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/timer.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/fsm.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/tsm.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/sys_dbg.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/if_app.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/if_console.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/if_cpu_serial.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/app.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/app_config.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/app_data.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/shell.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/task_console.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/task_debug.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/task_fw.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/task_if.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/task_list.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/base64.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/cmd_line.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/fifo.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/firmware.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/link.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/link_mac.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/link_phy.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/link_data.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/mosqsupscribe.o
+ .comment       0x000000000000002b       0x2c build_ak-base-linux/mosqpublish.o
+ .comment       0x000000000000002b       0x2c /usr/lib/gcc/x86_64-linux-gnu/9/crtendS.o
+
+.gnu.build.attributes
+ *(.gnu.build.attributes .gnu.build.attributes.*)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x0000000000000000      0x6e0
+ *(.debug_aranges)
+ .debug_aranges
+                0x0000000000000000       0x40 build_ak-base-linux/ak.o
+ .debug_aranges
+                0x0000000000000040       0x30 build_ak-base-linux/message.o
+ .debug_aranges
+                0x0000000000000070       0x30 build_ak-base-linux/timer.o
+ .debug_aranges
+                0x00000000000000a0       0x30 build_ak-base-linux/fsm.o
+ .debug_aranges
+                0x00000000000000d0       0x30 build_ak-base-linux/tsm.o
+ .debug_aranges
+                0x0000000000000100       0x30 build_ak-base-linux/sys_dbg.o
+ .debug_aranges
+                0x0000000000000130       0x30 build_ak-base-linux/if_app.o
+ .debug_aranges
+                0x0000000000000160       0x30 build_ak-base-linux/if_console.o
+ .debug_aranges
+                0x0000000000000190       0x30 build_ak-base-linux/if_cpu_serial.o
+ .debug_aranges
+                0x00000000000001c0       0x30 build_ak-base-linux/app.o
+ .debug_aranges
+                0x00000000000001f0       0x50 build_ak-base-linux/app_config.o
+ .debug_aranges
+                0x0000000000000240       0x30 build_ak-base-linux/app_data.o
+ .debug_aranges
+                0x0000000000000270       0x30 build_ak-base-linux/shell.o
+ .debug_aranges
+                0x00000000000002a0       0x40 build_ak-base-linux/task_console.o
+ .debug_aranges
+                0x00000000000002e0       0x40 build_ak-base-linux/task_debug.o
+ .debug_aranges
+                0x0000000000000320       0x60 build_ak-base-linux/task_fw.o
+ .debug_aranges
+                0x0000000000000380       0x30 build_ak-base-linux/task_if.o
+ .debug_aranges
+                0x00000000000003b0       0x20 build_ak-base-linux/task_list.o
+ .debug_aranges
+                0x00000000000003d0       0x30 build_ak-base-linux/base64.o
+ .debug_aranges
+                0x0000000000000400       0x30 build_ak-base-linux/cmd_line.o
+ .debug_aranges
+                0x0000000000000430       0x30 build_ak-base-linux/fifo.o
+ .debug_aranges
+                0x0000000000000460       0x30 build_ak-base-linux/firmware.o
+ .debug_aranges
+                0x0000000000000490       0x30 build_ak-base-linux/link.o
+ .debug_aranges
+                0x00000000000004c0       0x30 build_ak-base-linux/link_mac.o
+ .debug_aranges
+                0x00000000000004f0       0x40 build_ak-base-linux/link_phy.o
+ .debug_aranges
+                0x0000000000000530       0x30 build_ak-base-linux/link_data.o
+ .debug_aranges
+                0x0000000000000560       0xc0 build_ak-base-linux/mosqsupscribe.o
+ .debug_aranges
+                0x0000000000000620       0xc0 build_ak-base-linux/mosqpublish.o
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x0000000000000000    0x71a91
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x0000000000000000     0x81eb build_ak-base-linux/ak.o
+ .debug_info    0x00000000000081eb      0xff2 build_ak-base-linux/message.o
+ .debug_info    0x00000000000091dd     0x5808 build_ak-base-linux/timer.o
+ .debug_info    0x000000000000e9e5     0x1259 build_ak-base-linux/fsm.o
+ .debug_info    0x000000000000fc3e     0x1400 build_ak-base-linux/tsm.o
+ .debug_info    0x000000000001103e     0x180e build_ak-base-linux/sys_dbg.o
+ .debug_info    0x000000000001284c     0x6486 build_ak-base-linux/if_app.o
+ .debug_info    0x0000000000018cd2     0x51eb build_ak-base-linux/if_console.o
+ .debug_info    0x000000000001debd     0x52ba build_ak-base-linux/if_cpu_serial.o
+ .debug_info    0x0000000000023177     0x2abf build_ak-base-linux/app.o
+ .debug_info    0x0000000000025c36     0x9cb9 build_ak-base-linux/app_config.o
+ .debug_info    0x000000000002f8ef     0x2c52 build_ak-base-linux/app_data.o
+ .debug_info    0x0000000000032541     0x5889 build_ak-base-linux/shell.o
+ .debug_info    0x0000000000037dca     0x3b09 build_ak-base-linux/task_console.o
+ .debug_info    0x000000000003b8d3     0x3abb build_ak-base-linux/task_debug.o
+ .debug_info    0x000000000003f38e     0xa49c build_ak-base-linux/task_fw.o
+ .debug_info    0x000000000004982a     0x5343 build_ak-base-linux/task_if.o
+ .debug_info    0x000000000004eb6d     0x4c93 build_ak-base-linux/task_list.o
+ .debug_info    0x0000000000053800      0x281 build_ak-base-linux/base64.o
+ .debug_info    0x0000000000053a81      0x223 build_ak-base-linux/cmd_line.o
+ .debug_info    0x0000000000053ca4      0xe27 build_ak-base-linux/fifo.o
+ .debug_info    0x0000000000054acb     0x4d26 build_ak-base-linux/firmware.o
+ .debug_info    0x00000000000597f1     0x442d build_ak-base-linux/link.o
+ .debug_info    0x000000000005dc1e     0x416f build_ak-base-linux/link_mac.o
+ .debug_info    0x0000000000061d8d     0x4ec2 build_ak-base-linux/link_phy.o
+ .debug_info    0x0000000000066c4f     0x1d56 build_ak-base-linux/link_data.o
+ .debug_info    0x00000000000689a5     0x47e9 build_ak-base-linux/mosqsupscribe.o
+ .debug_info    0x000000000006d18e     0x4903 build_ak-base-linux/mosqpublish.o
+
+.debug_abbrev   0x0000000000000000     0xbee8
+ *(.debug_abbrev)
+ .debug_abbrev  0x0000000000000000      0xa37 build_ak-base-linux/ak.o
+ .debug_abbrev  0x0000000000000a37      0x31f build_ak-base-linux/message.o
+ .debug_abbrev  0x0000000000000d56      0x88c build_ak-base-linux/timer.o
+ .debug_abbrev  0x00000000000015e2      0x2ac build_ak-base-linux/fsm.o
+ .debug_abbrev  0x000000000000188e      0x30e build_ak-base-linux/tsm.o
+ .debug_abbrev  0x0000000000001b9c      0x3e6 build_ak-base-linux/sys_dbg.o
+ .debug_abbrev  0x0000000000001f82      0x935 build_ak-base-linux/if_app.o
+ .debug_abbrev  0x00000000000028b7      0x800 build_ak-base-linux/if_console.o
+ .debug_abbrev  0x00000000000030b7      0x7a9 build_ak-base-linux/if_cpu_serial.o
+ .debug_abbrev  0x0000000000003860      0x57b build_ak-base-linux/app.o
+ .debug_abbrev  0x0000000000003ddb      0xa65 build_ak-base-linux/app_config.o
+ .debug_abbrev  0x0000000000004840      0x5a0 build_ak-base-linux/app_data.o
+ .debug_abbrev  0x0000000000004de0      0x839 build_ak-base-linux/shell.o
+ .debug_abbrev  0x0000000000005619      0x7d2 build_ak-base-linux/task_console.o
+ .debug_abbrev  0x0000000000005deb      0x7f5 build_ak-base-linux/task_debug.o
+ .debug_abbrev  0x00000000000065e0      0xb20 build_ak-base-linux/task_fw.o
+ .debug_abbrev  0x0000000000007100      0x7e4 build_ak-base-linux/task_if.o
+ .debug_abbrev  0x00000000000078e4      0x68b build_ak-base-linux/task_list.o
+ .debug_abbrev  0x0000000000007f6f       0xf4 build_ak-base-linux/base64.o
+ .debug_abbrev  0x0000000000008063      0x142 build_ak-base-linux/cmd_line.o
+ .debug_abbrev  0x00000000000081a5      0x33e build_ak-base-linux/fifo.o
+ .debug_abbrev  0x00000000000084e3      0x794 build_ak-base-linux/firmware.o
+ .debug_abbrev  0x0000000000008c77      0x76b build_ak-base-linux/link.o
+ .debug_abbrev  0x00000000000093e2      0x82e build_ak-base-linux/link_mac.o
+ .debug_abbrev  0x0000000000009c10      0x993 build_ak-base-linux/link_phy.o
+ .debug_abbrev  0x000000000000a5a3      0x480 build_ak-base-linux/link_data.o
+ .debug_abbrev  0x000000000000aa23      0xa75 build_ak-base-linux/mosqsupscribe.o
+ .debug_abbrev  0x000000000000b498      0xa50 build_ak-base-linux/mosqpublish.o
+
+.debug_line     0x0000000000000000    0x1148d
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x0000000000000000     0x1a88 build_ak-base-linux/ak.o
+ .debug_line    0x0000000000001a88      0x40d build_ak-base-linux/message.o
+ .debug_line    0x0000000000001e95      0x9cf build_ak-base-linux/timer.o
+ .debug_line    0x0000000000002864      0x295 build_ak-base-linux/fsm.o
+ .debug_line    0x0000000000002af9      0x370 build_ak-base-linux/tsm.o
+ .debug_line    0x0000000000002e69      0x41f build_ak-base-linux/sys_dbg.o
+ .debug_line    0x0000000000003288      0xf38 build_ak-base-linux/if_app.o
+ .debug_line    0x00000000000041c0      0x6f9 build_ak-base-linux/if_console.o
+ .debug_line    0x00000000000048b9      0x713 build_ak-base-linux/if_cpu_serial.o
+ .debug_line    0x0000000000004fcc      0x4c8 build_ak-base-linux/app.o
+ .debug_line    0x0000000000005494     0x109c build_ak-base-linux/app_config.o
+ .debug_line    0x0000000000006530      0x5e1 build_ak-base-linux/app_data.o
+ .debug_line    0x0000000000006b11      0x8df build_ak-base-linux/shell.o
+ .debug_line    0x00000000000073f0      0x764 build_ak-base-linux/task_console.o
+ .debug_line    0x0000000000007b54      0x6c3 build_ak-base-linux/task_debug.o
+ .debug_line    0x0000000000008217     0x1c1a build_ak-base-linux/task_fw.o
+ .debug_line    0x0000000000009e31      0x715 build_ak-base-linux/task_if.o
+ .debug_line    0x000000000000a546      0x54e build_ak-base-linux/task_list.o
+ .debug_line    0x000000000000aa94      0x381 build_ak-base-linux/base64.o
+ .debug_line    0x000000000000ae15      0x164 build_ak-base-linux/cmd_line.o
+ .debug_line    0x000000000000af79      0x3ac build_ak-base-linux/fifo.o
+ .debug_line    0x000000000000b325      0x652 build_ak-base-linux/firmware.o
+ .debug_line    0x000000000000b977     0x10fd build_ak-base-linux/link.o
+ .debug_line    0x000000000000ca74     0x10be build_ak-base-linux/link_mac.o
+ .debug_line    0x000000000000db32     0x1819 build_ak-base-linux/link_phy.o
+ .debug_line    0x000000000000f34b      0x80e build_ak-base-linux/link_data.o
+ .debug_line    0x000000000000fb59      0xc3a build_ak-base-linux/mosqsupscribe.o
+ .debug_line    0x0000000000010793      0xcfa build_ak-base-linux/mosqpublish.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x0000000000000000     0xec86
+ *(.debug_str)
+ .debug_str     0x0000000000000000     0x5dc1 build_ak-base-linux/ak.o
+                                       0x6394 (size before relaxing)
+ .debug_str     0x0000000000005dc1       0x49 build_ak-base-linux/message.o
+                                        0x7ee (size before relaxing)
+ .debug_str     0x0000000000005e0a      0x3d3 build_ak-base-linux/timer.o
+                                       0x5f98 (size before relaxing)
+ .debug_str     0x00000000000061dd       0x42 build_ak-base-linux/fsm.o
+                                        0x840 (size before relaxing)
+ .debug_str     0x000000000000621f       0xfb build_ak-base-linux/tsm.o
+                                        0x920 (size before relaxing)
+ .debug_str     0x000000000000631a       0xb7 build_ak-base-linux/sys_dbg.o
+                                        0x9fa (size before relaxing)
+ .debug_str     0x00000000000063d1      0x2c1 build_ak-base-linux/if_app.o
+                                       0x60ac (size before relaxing)
+ .debug_str     0x0000000000006692       0x92 build_ak-base-linux/if_console.o
+                                       0x5b9d (size before relaxing)
+ .debug_str     0x0000000000006724      0x1f2 build_ak-base-linux/if_cpu_serial.o
+                                       0x5ded (size before relaxing)
+ .debug_str     0x0000000000006916       0xf7 build_ak-base-linux/app.o
+                                       0x189b (size before relaxing)
+ .debug_str     0x0000000000006a0d     0x5002 build_ak-base-linux/app_config.o
+                                       0x6efe (size before relaxing)
+ .debug_str     0x000000000000ba0f       0x8d build_ak-base-linux/app_data.o
+                                       0x1846 (size before relaxing)
+ .debug_str     0x000000000000ba9c      0x2fd build_ak-base-linux/shell.o
+                                       0x5f10 (size before relaxing)
+ .debug_str     0x000000000000bd99      0x70e build_ak-base-linux/task_console.o
+                                       0x2716 (size before relaxing)
+ .debug_str     0x000000000000c4a7      0x1a2 build_ak-base-linux/task_debug.o
+                                       0x27e5 (size before relaxing)
+ .debug_str     0x000000000000c649      0x37a build_ak-base-linux/task_fw.o
+                                       0x79c0 (size before relaxing)
+ .debug_str     0x000000000000c9c3       0x6d build_ak-base-linux/task_if.o
+                                       0x5c86 (size before relaxing)
+ .debug_str     0x000000000000ca30       0x1a build_ak-base-linux/task_list.o
+                                       0x59df (size before relaxing)
+ .debug_str     0x000000000000ca4a       0xa4 build_ak-base-linux/base64.o
+                                        0x1c6 (size before relaxing)
+ .debug_str     0x000000000000caee       0x42 build_ak-base-linux/cmd_line.o
+                                        0x21e (size before relaxing)
+ .debug_str     0x000000000000cb30       0xa8 build_ak-base-linux/fifo.o
+                                        0x634 (size before relaxing)
+ .debug_str     0x000000000000cbd8       0x98 build_ak-base-linux/firmware.o
+                                       0x5804 (size before relaxing)
+ .debug_str     0x000000000000cc70      0x3d8 build_ak-base-linux/link.o
+                                       0x25b8 (size before relaxing)
+ .debug_str     0x000000000000d048      0x566 build_ak-base-linux/link_mac.o
+                                       0x25ec (size before relaxing)
+ .debug_str     0x000000000000d5ae      0x6d2 build_ak-base-linux/link_phy.o
+                                       0x27ad (size before relaxing)
+ .debug_str     0x000000000000dc80      0x107 build_ak-base-linux/link_data.o
+                                        0xaa7 (size before relaxing)
+ .debug_str     0x000000000000dd87      0x976 build_ak-base-linux/mosqsupscribe.o
+                                       0x2a63 (size before relaxing)
+ .debug_str     0x000000000000e6fd      0x589 build_ak-base-linux/mosqpublish.o
+                                       0x2c9c (size before relaxing)
+
+.debug_loc      0x0000000000000000    0x180cf
+ *(.debug_loc)
+ .debug_loc     0x0000000000000000     0x510f build_ak-base-linux/ak.o
+ .debug_loc     0x000000000000510f      0x3a3 build_ak-base-linux/message.o
+ .debug_loc     0x00000000000054b2      0x64a build_ak-base-linux/timer.o
+ .debug_loc     0x0000000000005afc       0x8f build_ak-base-linux/fsm.o
+ .debug_loc     0x0000000000005b8b      0x291 build_ak-base-linux/tsm.o
+ .debug_loc     0x0000000000005e1c      0x1d4 build_ak-base-linux/sys_dbg.o
+ .debug_loc     0x0000000000005ff0      0xc6a build_ak-base-linux/if_app.o
+ .debug_loc     0x0000000000006c5a      0x234 build_ak-base-linux/if_console.o
+ .debug_loc     0x0000000000006e8e      0x22e build_ak-base-linux/if_cpu_serial.o
+ .debug_loc     0x00000000000070bc       0xa6 build_ak-base-linux/app.o
+ .debug_loc     0x0000000000007162     0x549b build_ak-base-linux/app_config.o
+ .debug_loc     0x000000000000c5fd      0x150 build_ak-base-linux/app_data.o
+ .debug_loc     0x000000000000c74d      0x572 build_ak-base-linux/shell.o
+ .debug_loc     0x000000000000ccbf      0x198 build_ak-base-linux/task_console.o
+ .debug_loc     0x000000000000ce57      0x14a build_ak-base-linux/task_debug.o
+ .debug_loc     0x000000000000cfa1     0x36be build_ak-base-linux/task_fw.o
+ .debug_loc     0x000000000001065f      0x22d build_ak-base-linux/task_if.o
+ .debug_loc     0x000000000001088c      0x6f6 build_ak-base-linux/base64.o
+ .debug_loc     0x0000000000010f82      0x2af build_ak-base-linux/cmd_line.o
+ .debug_loc     0x0000000000011231      0x3f2 build_ak-base-linux/fifo.o
+ .debug_loc     0x0000000000011623      0x75d build_ak-base-linux/firmware.o
+ .debug_loc     0x0000000000011d80      0xcf7 build_ak-base-linux/link.o
+ .debug_loc     0x0000000000012a77      0xcbf build_ak-base-linux/link_mac.o
+ .debug_loc     0x0000000000013736     0x1d27 build_ak-base-linux/link_phy.o
+ .debug_loc     0x000000000001545d      0x6a6 build_ak-base-linux/link_data.o
+ .debug_loc     0x0000000000015b03     0x128a build_ak-base-linux/mosqsupscribe.o
+ .debug_loc     0x0000000000016d8d     0x1342 build_ak-base-linux/mosqpublish.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges   0x0000000000000000     0x6340
+ *(.debug_ranges)
+ .debug_ranges  0x0000000000000000      0xe80 build_ak-base-linux/ak.o
+ .debug_ranges  0x0000000000000e80       0x30 build_ak-base-linux/timer.o
+ .debug_ranges  0x0000000000000eb0       0xa0 build_ak-base-linux/sys_dbg.o
+ .debug_ranges  0x0000000000000f50      0x610 build_ak-base-linux/if_app.o
+ .debug_ranges  0x0000000000001560       0xb0 build_ak-base-linux/if_console.o
+ .debug_ranges  0x0000000000001610       0x60 build_ak-base-linux/if_cpu_serial.o
+ .debug_ranges  0x0000000000001670       0x30 build_ak-base-linux/app.o
+ .debug_ranges  0x00000000000016a0      0xd30 build_ak-base-linux/app_config.o
+ .debug_ranges  0x00000000000023d0      0x130 build_ak-base-linux/app_data.o
+ .debug_ranges  0x0000000000002500      0x2e0 build_ak-base-linux/shell.o
+ .debug_ranges  0x00000000000027e0       0xa0 build_ak-base-linux/task_console.o
+ .debug_ranges  0x0000000000002880       0xa0 build_ak-base-linux/task_debug.o
+ .debug_ranges  0x0000000000002920      0xc40 build_ak-base-linux/task_fw.o
+ .debug_ranges  0x0000000000003560      0x110 build_ak-base-linux/task_if.o
+ .debug_ranges  0x0000000000003670       0x70 build_ak-base-linux/fifo.o
+ .debug_ranges  0x00000000000036e0      0x120 build_ak-base-linux/firmware.o
+ .debug_ranges  0x0000000000003800      0x630 build_ak-base-linux/link.o
+ .debug_ranges  0x0000000000003e30      0x730 build_ak-base-linux/link_mac.o
+ .debug_ranges  0x0000000000004560      0xa20 build_ak-base-linux/link_phy.o
+ .debug_ranges  0x0000000000004f80      0x1e0 build_ak-base-linux/link_data.o
+ .debug_ranges  0x0000000000005160      0x8f0 build_ak-base-linux/mosqsupscribe.o
+ .debug_ranges  0x0000000000005a50      0x8f0 build_ak-base-linux/mosqpublish.o
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(build_ak-base-linux/ak-base-linux elf64-x86-64)

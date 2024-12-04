@@ -17,6 +17,7 @@ include sources/sys/Makefile.mk
 include sources/app/Makefile.mk
 include sources/common/Makefile.mk
 include sources/networks/Makefile.mk
+include sources/vendors/mosquittopp/Makefile.mk
 
 CXXFLAGS	+= -I/usr/local/include
 CXXFLAGS	+= -I/usr/include
@@ -39,6 +40,7 @@ LDFLAGS += -Wl,-Map=$(OBJ_DIR)/$(NAME_MODULE).map
 LDLIBS +=	-lpthread		\
 		-lrt			\
 		-lm			\
+                -lmosquittopp           \
 
 all: create $(OBJ_DIR)/$(NAME_MODULE)
 
